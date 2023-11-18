@@ -1,0 +1,41 @@
+.generic-input-container {
+    position: relative;
+    width: 500px;
+    caret-color: transparent;
+  }
+  
+  .generic-input-container .generic-input-content {
+      border: 5px solid grey;
+      padding: 5px;
+      text-align: left;
+      font-size: 16px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .invalid-input{
+    background-color: lightcoral;
+  }
+  
+  .caret {
+    position: absolute;
+    top: 7px;
+    height: 20px;
+    width: 2px;
+    background: black;
+    animation: flashing-caret 0.5s step-end infinite
+  }
+  
+  .placeholder {
+    position: absolute;
+    top: 8px;
+    left: 180px;
+    color: black;
+    display: block;
+    pointer-events: none;
+  }
+  
+  @keyframes flashing-caret {
+    50% {
+      background: transparent;
+    }
+  }
