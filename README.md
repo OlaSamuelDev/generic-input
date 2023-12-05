@@ -9,6 +9,7 @@
 - Allow empty input validation to be turned off through prop.
 - Add JEST unit tests for the components and Util function.
 - Currently the setCaretPosition uses a hardcoded font size and family. This should be dynamic based on the current text.
+- Moving focus to password field when pressing enter on the onscreen keyboard to improve UX.
 
 # Getting Started with Generic Input
 
